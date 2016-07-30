@@ -1,0 +1,219 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+    <!-- Location -->
+
+    <category>
+        <pattern> where is kathmandu university loacted </pattern>
+        <template>
+            Kathmandu University is located in Dhulikhel, Kavrepalanchok District, about 30 km east of Kathmandu. 
+        </template>
+    </category>
+    <category>
+	<pattern> * kathmandu university location </pattern>
+        <template>
+	    <srai> where is kathmandu university loacted </srai>
+	</template>
+     </category>
+ 	<category>
+	<pattern> * locaion of ku  </pattern>
+        <template>
+	    <srai> where is kathmandu university loacted </srai>
+	</template>
+     </category>
+ 
+  <!-- department location -->
+ 
+    <category>
+	<pattern> where is admin building loacted * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> * location of admin building </pattern>
+        <template>
+	    <srai> where is admin building loacted *</srai>
+	</template>
+     </category>
+ 
+     <category>
+	<pattern> where is computer engineering  building loacted * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+     <category>
+	<pattern> where is civil engineering building loacted * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+     <category>
+	<pattern> where is environmental engineering building located * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+     <category>
+	<pattern> where is mechanical engineering building loacted * </pattern>
+	<template>
+	   It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is biotech engineering building loacted * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is electiocal engineering building loacted * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is geomatics engineering building loacted * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+
+<!-- forms loaction -->
+
+    <category>
+        <pattern> where is get KUCAT 2016 intrance forms </pattern>
+   <templete>
+	      forms are available on admin block 1. 
+        </template>
+    </category>
+    <category>
+	<pattern> entrance exam forms * </pattern>
+        <template>
+	    <srai> where is get KUCAT 2016 intrance forms </srai>
+	</template>
+     </category>
+ 	<category>
+	<pattern> from where can i get _ entrance exam forms  </pattern>
+        <template>
+	    <srai> where is get KUCAT 2016 intrance forms </srai>
+	</template>
+     </category>
+ <!-- exam hall location -->
+
+  <category>
+<pattern> where will be my  KUCAT 2016 entrance examination <pattern>
+<templete>
+ KUCAT 2016 entrance exam will be conducted in Kathmandu university central building.. seat plan detail is available in our website ku.edu.np/exam section/entrance/seatplans 
+<templete/>
+</category>
+
+
+
+    <category>
+        <pattern> *seat plans for entrance examm </pattern>
+        <template>
+             <srai>where will be my  KUCAT 2016 entrance examination </srai>
+        </template>
+    </category>
+    <category>
+	<pattern>* entrance exam location </pattern>
+        <template>
+	    <srai> where will be my  KUCAT 2016 entrance examination </srai>
+	</template>
+     </category>
+ 	<category>
+	<pattern> * KUCAT 2016 exam hall  </pattern>
+        <template>
+	    <srai> where will be my  KUCAT 2016 entrance examination </srai>
+	</template>
+     </category>
+<!-- imp places -->
+	<category>
+	<pattern> where is library * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is canteen * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is bank * </pattern>
+	<template>
+	   It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is boys hostel  * </pattern>
+	<template>
+	   It is located in block
+	</template>
+     </category><category>
+	<pattern> where is girls hostel * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is international hostel * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category><category>
+	<pattern> where is staff quarters * </pattern>
+	<template>
+	    It is located in block
+	</template>
+     </category>
+	<category>
+	<pattern> where is ground * </pattern>
+	<template>
+	    It is located in 
+	</template>
+     </category>
+	<category>
+	<pattern> where is social hall* </pattern>
+	<template>
+	    It is located in 
+	</template>
+     </category>
+	<category>
+	<pattern> where is ground * </pattern>
+	<template>
+	    It is located in 
+	</template>
+     </category>
+	<category>
+	<pattern> where is ground * </pattern>
+	<template>
+	    It is located in 
+	</template>
+     </category><category>
+	<pattern> where is ground * </pattern>
+	<template>
+	    It is located in 
+	</template>
+     </category>
+</aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

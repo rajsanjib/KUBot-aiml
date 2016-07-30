@@ -28,3 +28,9 @@
 * When will the result be published
 * When will the entrance result be published
 * What is the date of entrance result
+
+## Subjects
+* What subjects are taught in Kathmandu University
+* What are the faculties in Kathmandu University
+* What are the courses available
+* what courses are available in engineering/science
