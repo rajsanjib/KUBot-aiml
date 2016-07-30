@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+<!-- Admission  -->
+<category>
+    <pattern>ADMISSION FORM</pattern>
+    <template>
+            <![CDATA[
+                    You can download the admission form for undergraduate <a href="www.ku.edu.np">here</a>
+            ]]>
+    </template>
+</category>
+
+<category>
+    <pattern>ADMISSION FORM 2016</pattern>
+    <template>
+            <srai>ADMISSION FORM</srai>
+    </template>
+</category>
+
+<!-- KUCAT RESULT -->
+<category>
+    <pattern>KUCAT RESULT</pattern>
+    <template>
+            <![CDATA[
+                    You can download the result for undergraduate <a href="www.ku.edu.np">here</a>
+            ]]>
+    </template>
+</category>
+
+<category>
+    <pattern>KUCAT RESULT 2016</pattern>
+    <template>
+            <srai>KUCAT RESULT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* DOWNLOAD * ADMISSION FORM</pattern>
+    <template><srai>ADMISSION FORM</srai></template>
+</category>
+
+<category>
+    <pattern>* LINK * ADMISSION FORM</pattern>
+    <template></template>
+</category>
+
+<category>
+    <pattern>_ LINK *</pattern>
+    <template>
+        <srai><star index="2" /></srai>
+    </template>
+</category>
+
+<category>
+    <pattern>_ LINK TO *</pattern>
+    <template>
+        <srai><star index="2" /></srai>
+    </template>
+</category>
+
+<category>
+    <pattern>_ DOWNLOAD *</pattern>
+    <template>
+        <srai><star index="2" /></srai>
+    </template>
+</category>
+
+</aiml>

@@ -1,0 +1,38 @@
+<aiml version="1.0">
+
+<category>
+  <pattern>WHEN WAS KU ESTABLISHED</pattern>
+  <template>
+    It was established in 1991
+    <set name="it">KU</set>
+  </template>
+</category>
+
+<category>
+  <pattern></pattern>
+  <template>
+
+  </template>
+</category>
+
+<category>
+  <pattern>WHERE IS KU LOCATED</pattern>
+  <template>
+    KU is located in 28 Kilo, Dhulikhel, Kavre
+  </template>
+</category>
+
+<category>
+  <pattern>* DIRECTION TO KU</pattern>
+  <template>
+    Buses for Dhulikhel leave from Purano Buspark every 10-15 mins.
+    You can ask for the bus to stop you at 28 kilo. KU Campus is located 800m right from 28 kilo
+  </template>
+</category>
+
+<category>
+  <pattern>CONTACT *</pattern>
+  <template>
+    <srai>
+  </template>
+</category>
