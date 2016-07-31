@@ -34,3 +34,13 @@
 * What are the faculties in Kathmandu University
 * What are the courses available
 * what courses are available in engineering/science
+
+## KU info
+* How can I contact KU
+* When was KU established
+* Where is KU
+* Give me/ What is the direction of KU
+* What is the direction of KU from kathmandu
+* When will the classes start in KU
+* when does the new classes start
+* What are the criteria for admission in KU
